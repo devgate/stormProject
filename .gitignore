@@ -1,0 +1,50 @@
+# gradle
+build
+.gradle
+
+# idea
+out
+classes
+.idea
+*.iml
+*.ipr
+*.iws
+*.pyc
+
+# etc
+*.chk
+*.swp
+*.rdb
+
+rebel.xml
+.DS_Store
+npm-debug.log
+access_logs.db
+import.sql
+table.sql
+
+node_modules/
+temp/
+
+src/main/webapp/resources/components
+src/main/resources/node_modules
+src/main/resources/dist
+src/main/resources/.tmp
+src/main/resources/.sass-cache
+src/main/resources/bower_components
+src/main/resources/lib
+
+
+
+src/main/resources/static/js/config.js
+
+# log files for the log-collector test, must be deleted after the test
+**/*/logs
+
+# private env
+# web/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
